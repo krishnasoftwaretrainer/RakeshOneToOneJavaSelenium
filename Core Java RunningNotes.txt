@@ -1,0 +1,101 @@
+Software Testing:
+---------------
+1.WhiteBox:Developers:Code Leve Testing 
+2.BlockBox:
+Functionl:Manual and Automation
+Registration Login Cart Payment LogOut 
+UI:SM AM FS FS 
+
+Manual Testing:
+--------------
+STLC:RA TP TS TC TE TE TR[P/F] TC 
+Requirements Analysis:
+BRSD:
+FRSD:
+SRSD:
+
+Test Planning[TL/TM]:
+-------------------
+
+Test Scenarios: What
+Test Cases: How 
+
+Test Environment SetUp:
+
+Test Excution[Manual]:
+
+Test Result:
+TC1:Pass
+TC2:Fail 
+TC3:Pass 
+Automation Testing:
+----------------
+ATLC:Script-->Run-->TestResult[P/F]
+
+Defect/Bug Lifecycle:
+-------------------
+DR[NEW] DST[OPEN,FIXED,RETEST,CLOSE] DRT DC DRO  
+
+Non-Functionl:Automation
+
+3.GrayBox:WhiteBox[Dev]+BlockBox[QA]
+
+
+https://www.oracle.com/java/technologies/downloads/#jdk25-windows
+
+Java Path Setting:
+
+1.Basic Editor:
+-------------
+NotePad,NotePad++,Edit+ etc...
+CMD 
+Pre-Define: and User-Define:Rules 
+Case-Sensitive:Ramesh ramesh  
+
+To print 'Hello World' in output
+Syntax:Template 
+------
+class ClassName
+{
+MainMethod()
+{
+Program/Body;
+---------
+---------
+}
+}
+
+ClassName:ProgramName 
+Ex:
+--
+class HelloWorld
+{
+public static void main(String args[])
+{
+System.out.println("Hello World!");
+}
+}
+SourceCode/Program: .java 
+ByteCode/ObjCode: .class [Executabul]
+
+Compilation:javac FileName.java 
+			javac HelloWorld.java 
+->Error Checking
+->.class File 
+Excute/Run:OutPut:java ClassName
+				  java HelloWorld
+
+Rules:
+Start with Alphabet 
+Digit use from Second 
+SS[$ _]
+White Spaces not allowed
+Dont use predefine words in userdefine place
+Releated 
+
+2.Advanced Editor:IDE:EclipseIDE,IntellijIDE
+
+WAJP to perform Addition Operation on given Two integer values and Print OutPut.
+Input:5,3
++
+Print:8
