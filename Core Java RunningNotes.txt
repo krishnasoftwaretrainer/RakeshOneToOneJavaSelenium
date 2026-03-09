@@ -99,3 +99,40 @@ WAJP to perform Addition Operation on given Two integer values and Print OutPut.
 Input:5,3
 +
 Print:8
+-------------------------
+9th March
+
+IDE:IntellijIDE:
+--------------
+C:\Users\HP\IdeaProjects\CoreJavaPrograms\src\basicJavaPrograms\Addition2Num.java
+
+Static Values:Values for Variables initialize inside program.
+Perminent Values 
+Developers:
+
+Dynamic Input Values:
+Values for Variables initialize at runtime.
+Temp Values
+Customer/Users:
+
+Pre-Define:java.util,Scanner,nextInt();nextFloat();
+User-Define:basicJavaPrograms,Addition2Num
+
+Scanner Class:
+-------------
+Package:
+Class:Scanner
+Method:nextInt();nextFloat();
+12345:Integer
+123.4568:Float 
+
+Static and Non-Static:
+Class 
+Object:
+Syntax:
+ClassName ObjName=new ClassName();
+Scanner scan = new Scanner();
+scan.nextInt();
+
+Variables and DataTypes:
+---------------------
