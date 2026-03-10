@@ -136,3 +136,52 @@ scan.nextInt();
 
 Variables and DataTypes:
 ---------------------
+
+Variables and DataTypes:
+---------------------
+Container:Store/Hold different types values.
+Memory Location:
+DataTypes:10 10.5 Krishna F true 
+
+Syntax:
+-----
+datatype VariableName=Value;
+datatype VariableName=scan.nextMethod();
+int a=10;
+int b=20;
+int c=a+b;
+
+3Options:
+Index:0 to n-1 
+Address:1001 
+Name:a 
+
+1.Variable Declaration: int a,b;
+2.Variable Declaration and Initialization: int c=10,d=20;
+int c=a+b;
+int sum=c+d;
+
+Static and Dynamic
+
+Which type of value, you are redy to store in variable.
+
+I.Primitive DataTypes:
+--------------------
+1.Numeric DataTypes:
+A.Plain Numbers:99 -88
+a.byte:1byte:-128 to 127
+b.short:2bytes
+c.int:4bytes
+d.long:8bytes
+
+B.Point Values:99.89
+a.float:123.123456
+b.double:
+
+2.Non-Numeric:
+C.Char:Single Character: 'G'  'h'  '6'  '#' 
+D.Boolean:true/false
+
+II.Non-Primitive:
+-----------------
+String:""

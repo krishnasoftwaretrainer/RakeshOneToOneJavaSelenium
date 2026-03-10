@@ -7,7 +7,7 @@ public class Sub2Num_Scanner  //User-Define
     {
        Scanner scan=new Scanner(System.in);
         System.out.println("Enter First Value:");
-        int a=scan.nextInt();
+        int a=scan.nextInt(); //Variable is Declared
         System.out.println("Enter Second Value:");
        int b=scan.nextInt();
        int sum=a+b;
