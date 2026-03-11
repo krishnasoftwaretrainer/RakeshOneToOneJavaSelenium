@@ -185,3 +185,32 @@ D.Boolean:true/false
 II.Non-Primitive:
 -----------------
 String:""
+===============================
+
+Java Tokens:
+----------
+1.KeyWords:Pre-define/Library/Reserved 
+
+2.Identifiers:User-Define
+
+3.Literals:
+int a=10;
+datatype VariableName=Value;
+
+Integer Literal
+String Literal
+
+4.Constants:Fixed 
+Types:
+
+5.Variables and DataTypes:
+
+All Variables are Identifiers:true
+All Identifiers are Variables:false
+---------------------
+All Literals are Constants:false 
+All Constants are Literals:true 
+
+Comments and Types:
+Errors and Types:
+Type Conversion and Types:
