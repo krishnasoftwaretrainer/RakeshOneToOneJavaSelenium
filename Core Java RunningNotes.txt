@@ -216,3 +216,77 @@ Errors and Types:
 Type Conversion and Types:
 ==================
 20-10*3+8-3
+
+========================
+Operators in Java:Symbol
+---------------
+Operators are using to perform opeartions on operends.  3+2-1
+1.Arthametic Operators:
+---------------------
++ - * / %
+Precedence:Priority:
+
+High Priority:* / %
+Low Priority:+ -
+
+20-10*3+8-3=35
+20-30+8-3=-5
+
+Input:Integer or Float
+OutPut:Integer or Float
+
+2.Relational[Comparison Operators]:
+----------------------------
+< <= > >= == !=
+Big Small Equal 
+
+Input:Integer or Float
+OutPut:Boolean[true/false]
+
+10>15:false 10<15:true 
+
+> OR =: 10>=20: 10>20 OR 10==20:false OR false:false
+< OR = 10<=20: 10<20 OR 10==20: true OR false:true 
+
+3.Logical Operators:
+----------------
+AND OR NOT 
+
+Input:Boolean[true/false]
+OutPut:Boolean[true/false]
+
+Truth Table:
+------------
+Input1	Input2	AND[&&]	OR[||] 	NOT[!] 
+-------------------------------------
+True	True	True 	True	False
+
+True	False	False	True 
+
+False	True	False	True
+
+False	False	False	False	True
+
+Red:Error[Stop]
+Yellow:Warning
+Green:
+
+4.Assignment: = 	a=10;
+-------------
++=	-=	*=	/=	%=	
+a=10;
+a+=5;a=a+5;a=10+5;a=15;
+
+a=10;
+b=a+5;b=10+5;b=15;
+
+5.Unary:
+-------
++50	 -30 a=10 b=10
+Increment: ++ +1
+Pre-Increment:++a:11:a=11: Print:11 
+Post-Increment:b++:Print:10 +1 Update:11
+
+Decrement: -- -1
+Pre-Decrement:--c:-1 9:Print:9 
+Post-Decrement:d--:Print:10; -1 Update:9 
