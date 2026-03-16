@@ -290,3 +290,75 @@ Post-Increment:b++:Print:10 +1 Update:11
 Decrement: -- -1
 Pre-Decrement:--c:-1 9:Print:9 
 Post-Decrement:d--:Print:10; -1 Update:9 
+====================
+6.Ternary Operators:
+-----------------
+?	:
+
+Bitwise: & | ^ << >>
+Binary:0 1 
+
+Control Flow Statements in Java:
+-------------------------------
+Sequentional Flow Statements
+
+1.Conditional/Branching/Selection Statements:
+---------------------------------
+true/false
+True Block Statements:TBS 
+False Block Statements:FBS 
+
+A.if() Condition:
+-------------
+a.Simple-if():
+------------
+Syntax:
+----
+if(Condition) //True False  
+{
+Body; TBS;
+}
+null[empty] Pass Blank 
+
+b.if-else():
+------------
+Syntax:
+----
+if(Condition) //True False  
+{
+Body; TBS; Pass
+}
+else
+{
+Body; FBS; Fail 
+}
+
+(age>or=18 && weight>or=50)
+(true && true): true 
+(age>or=18 || weight>or=50)
+(true && true): true 
+
+18>18 or 18==18: false or true:true
+50>50 or 50==50:false or true:true 
+
+c.else-if() or ladder-if():
+----------------
+Syntax:
+------
+if(Condition-1) //True False  
+{
+Body; TBS; Pass
+} //Exit 
+else if(Condition-2) FALSE
+{
+Body; TBS; Pass
+} //exit
+else if(Condition-3)
+{
+Body; TBS; Pass
+}
+else
+{
+Body; FBS;
+}
+

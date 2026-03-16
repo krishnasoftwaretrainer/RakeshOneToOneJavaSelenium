@@ -34,11 +34,13 @@ public class Arthametic_Operators {
         System.out.println(20/10); //2
         System.out.println(20%10); //0
         System.out.println(20-10*3+8-3); //0
-
-        
-
+        System.out.println("First");
 
 
 
-}
+
+
+
+
+    }
 }
