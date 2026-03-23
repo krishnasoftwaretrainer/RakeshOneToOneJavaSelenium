@@ -8,6 +8,7 @@ public class Addition2Num
         int b=10;  //Static Permanent
         int sum =a+b;
         System.out.println("Addition:" +sum);
-
+    //break;
+       // continue;
     }
 }

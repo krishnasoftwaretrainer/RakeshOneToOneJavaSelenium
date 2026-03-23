@@ -1,15 +1,15 @@
-package Conditional_Statements;
+package loopingStatements;
 
 import java.util.Scanner;
 
-public class BloodDonation
+public class WhileLoop
 {
-    public static void main(String[] args)
+    public static void main(String args[])
     {
         Scanner scan = new Scanner(System.in);
-        for(int i=1; i<=3; i++)
+        while(true)
         {
-             System.out.println("Enter your age: ");
+            System.out.println("Enter your age: ");
             int age = scan.nextInt();
             System.out.println("Enter your weight: ");
             int weight = scan.nextInt();
@@ -25,5 +25,6 @@ public class BloodDonation
                 System.out.println("You are not eligible for blood donation");
             }
         }
+        }
     }
-}
+

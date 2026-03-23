@@ -466,4 +466,75 @@ default:
 FBS;
 }
 }
+======================
 
+2.Looping/Iterative Statements:
+-----------------------------
+Compilation
+Excution:Only Once 
+
+Entry Control:
+-------------
+for():Counted Loop 
+-----
+Syntax:
+-------
+for(Initialization;Condition;Increment/Decrement)
+{
+Body;
+}
+
+Print 1 to 10 Numbers.
+for(int i=1;i<=10;i++) //1<=10T 2<=10T 11<=10F
+{
+Syso(i);
+}Exit
+1
+2
+
+while():Un-Counted
+-----
+while(true)
+{
+Body;
+}
+
+Syntax:
+------
+Initialization;
+while(Condition)
+{
+Body;
+Increment/Decrement;
+}
+
+Exit Control:
+----------
+
+do-while():
+--------
+Syntax:
+-------
+Initialization;
+do
+{
+Body;
+Increment/Decrement;
+}while(Condition);
+
+Nested Loops:
+-----------
+for() //Outer[Rows]  T T F
+{
+for() //Inner(Columns) T F 
+{
+Body;
+}
+}
+
+3.Jumping Statements:
+--------------------
+break; continue; return; 
+
+Arrays in Java:
+--------------
