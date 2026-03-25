@@ -601,3 +601,74 @@ String Pool Concept:
 ------------------
 String word1="Java"; //4bytes 435x4
 
+==============
+OOPS Concepts:
+-------------
+1.Re-Usability
+2.Readabulity { }
+
+Regression: {  100LOS  } 10TC {10LOS} {10LOS}
+
+100TC:Open Maximize URL Close
+TC1:Open Maximize URL Close
+TC2:Open Maximize URL Close
+TC3:Open Maximize URL Close
+
+Class and Object:
+--------------
+Virtuval Physical 
+Mobile:Samsung Oppo 
+Fruit:Mango Apple Banana
+Behiour State Identification
+
+class classname
+{
+{
+Body;
+}
+MainMethod() static
+{
+Calling;
+} 
+
+1.Methods/Functions:
+2.Constructors
+3.Inheritance
+4.Polymorphism
+5.Data Abstraction
+6.Interface
+7.Encapsulation
+8.Exception Handling
+
+1.Methods/Functions:
+-----------------
+Block od Code or Set of Statements.
+Method Signature or Declaration:
+----------------
+class ClassName
+{
+AccessSpecifier Returntype MethodName(Parameters)
+{
+Method Body;
+Implementation;
+Actuval Program/Script;
+}
+}
+
+Compilation:
+Excution:
+
+Methods are Two Types:
+------------------
+1.Pre-Define:
+2.User-Define
+
+1.Static Methods: static
+ClassName
+VariableName
+
+2.Non-Static Methods:
+Object
+ClassName ObjName=new ClassName();
+
+1.Can we Cal Non-Static Method through ClassName:false [Error] 

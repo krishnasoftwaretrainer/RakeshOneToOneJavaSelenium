@@ -9,7 +9,7 @@ public class Sub2Num_Scanner  //User-Define
         System.out.println("Enter First Value:");
         int a=scan.nextInt(); //Variable is Declared
         System.out.println("Enter Second Value:");
-       int b=scan.nextInt();
+       int b=scan.nextInt();//Non-Static Method
        int sum=a+b;
        System.out.println("Sum:"+sum);
 
