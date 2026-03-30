@@ -672,3 +672,65 @@ Object
 ClassName ObjName=new ClassName();
 
 1.Can we Cal Non-Static Method through ClassName:false [Error] 
+
+
+Same Package and Same Class
+Same Package and Different Class
+Different Package and Different Class 
+
+User-Define Methods:
+--------------------
+1.WithOut Returntype and WithOut Parameters
+2.WithOut Returntype and With Parameters
+3.With Returntype and WithOut Parameters
+4.with Returntype and With Parameters
+
+AccessSpecifier:
+--------------
+public:
+Same Package and Same Class
+Same Package and Different Class
+Different Package and Different Class 
+
+private:
+Same Package and Same Class
+
+protected:
+Same Package and Same Class
+Same Package and Different Class
+
+default:
+Same Package and Same Class
+Same Package and Different Class
+
+
+AccessSpecifier Returntype MethodName(Parameters)
+public void Addition()
+public void Addition(int a,int b)
+public int Addition()
+return returnvalue;
+public int Addition(double a,int b)
+return returnvalue;
+
+Constructors in Java:
+------------------
+1.WithOut Parameters Constructor
+2.Parameterized Constructors
+3.Default Constructors
+
+Inheritance in Java:
+------------------
+Parent Class:Properties:Addition
+Child Class:Re-Use:
+Child Class inherites the features from Parent Class
+
+Parent/Super/Base 
+Child/Sub/Derived
+
+Child extends Parent
+
+1.Single-Level:Single Parent and Single Child
+2.Multi-Level
+3.Hierarchical:1P C1 C2 C3
+4.MultiPile:C1 P1 P2 P3 
+5.Hybrid

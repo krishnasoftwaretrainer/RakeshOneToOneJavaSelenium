@@ -12,7 +12,7 @@ public class Calculator1  //+ - * / Class
   }
 
   //Subtraction:Static Method
-  public static void Subtraction()
+  private static void Subtraction()
   {
     int a=20;
     int b=20;
@@ -21,7 +21,7 @@ public class Calculator1  //+ - * / Class
   }
 
   //Multiplication:Non-Static Method
-    public void Multiplication()
+    protected void Multiplication()
     {
         int a=20;
         int b=20;
@@ -30,7 +30,7 @@ public class Calculator1  //+ - * / Class
     }
 
     //Division:Static Method
-    public static void Division()
+        static void Division()  //default access specifier
     {
         int a=20;
         int b=20;
@@ -42,10 +42,13 @@ public class Calculator1  //+ - * / Class
   {
       //Cal
       Calculator1 cal=new Calculator1();  //Object Creation
-      cal.Addition(); //Method Calling
+      cal.Addition(); //Method Calling Same Package and Same Class
       Calculator1.Subtraction(); //Static Method Calling
       cal.Multiplication(); //Method Calling
       cal.Division(); //Static Method Calling
+
+      WOR_WP worp=new WOR_WP();  //ObjectCreation
+        worp.Addition1(1000,2000);
   }
 
 }

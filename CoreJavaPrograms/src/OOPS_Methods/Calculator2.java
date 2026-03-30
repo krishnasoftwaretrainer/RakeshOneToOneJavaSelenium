@@ -12,8 +12,8 @@ public class Calculator2 //+ - * / % Class
     public  static  void main(String args[])
     {
         Calculator1 cal1=new Calculator1();  //Object Creation
-        cal1.Addition();
-        Calculator1.Subtraction();
+        cal1.Addition();  //Same Package and Different Class Method Calling
+        // Calculator1.Subtraction();
         cal1.Multiplication();
         Calculator1.Division();
         Calculator2 cal2=new Calculator2();  //Object Creation
